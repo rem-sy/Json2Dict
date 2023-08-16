@@ -1,10 +1,10 @@
-package com.example.antrl_try;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AntrlTryApplicationTests {
+class Json2DictTests {
 
     @Test
     void contextLoads() {
