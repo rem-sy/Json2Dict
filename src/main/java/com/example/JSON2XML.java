@@ -92,7 +92,7 @@ public class JSON2XML {
     }
 
     public static void main(String[] args) throws Exception {
-        InputStream is = test.class.getClassLoader().getResourceAsStream("demo.json");
+        InputStream is = JSON2DICT.class.getClassLoader().getResourceAsStream("demo.json");
 
         CharStream input = CharStreams.fromStream(is);
         JsonP.JsonLexer lexer = new JsonP.JsonLexer(input);
