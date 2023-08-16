@@ -1,0 +1,21 @@
+{
+  "a": "b",
+  "c": [1,2,3],
+  "d": {
+    "name": "test",
+    "age": null,
+    "email": "test@email.com",
+    "test": true
+  },
+  "attrs": [{
+    "key": "name",
+    "type": "string"
+  }, {
+    "key": "age",
+    "type": "int"
+  }, {
+    "key": "email",
+    "type": "string",
+    "diff": "diff"
+  }]
+}
